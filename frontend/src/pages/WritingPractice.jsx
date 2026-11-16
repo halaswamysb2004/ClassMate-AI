@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API = "http://localhost:8000";
+import { API } from "../config";
 
 const characters = {
   uppercase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""),

@@ -1,3 +1,4 @@
+import { API } from "../config";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -78,7 +79,7 @@ export default function Games() {
     try {
       setSpeaking(true);
 
-      const response = await fetch("http://localhost:8000/api/voice/speak", {
+      const response = await fetch(`${API}/api/voice/speak`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text })

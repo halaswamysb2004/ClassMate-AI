@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import usePrisma from "../hooks/usePrisma";
 
-const API = "http://localhost:8000";
+import { API } from "../config";
 const WRITING_PASS_SCORE = 65;
 
 const CURRICULUM = [

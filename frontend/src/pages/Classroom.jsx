@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AutoTeacher from "./AutoTeacher";
 
-const API = "http://localhost:8000";
+import { API } from "../config";
 
 function getSavedChild() {
   try {

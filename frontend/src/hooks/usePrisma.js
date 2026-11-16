@@ -1,3 +1,4 @@
+import { WS_API } from "../config";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function usePrisma(onTranscript, onStatus) {
@@ -110,7 +111,7 @@ export default function usePrisma(onTranscript, onStatus) {
       streamRef.current = stream;
 
       const socket = new WebSocket(
-        "ws://localhost:8000/api/voice/listen"
+        `${WS_API}/api/voice/listen`
       );
 
       socket.binaryType = "arraybuffer";

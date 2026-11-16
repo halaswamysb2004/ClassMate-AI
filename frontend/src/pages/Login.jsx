@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-const API = 'http://localhost:8000';
+import { API } from "../config";
 export default function Login() {
   const [email,setEmail]=useState(''); const [password,setPassword]=useState(''); const [error,setError]=useState(''); const [loading,setLoading]=useState(false); const navigate=useNavigate();
   async function handleLogin(e){e.preventDefault();setError('');setLoading(true);try{const response=await fetch(`${API}/api/auth/login`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email.trim(),password})});const data=await response.json();if(!response.ok)throw new Error(data.detail||'Invalid email or password.');if(!data.access_token)throw new Error('Login succeeded, but no access token was received.');localStorage.setItem('access_token',data.access_token);localStorage.setItem('token',data.access_token);if(data.parent)localStorage.setItem('parent',JSON.stringify(data.parent));navigate('/dashboard',{replace:true});}catch(err){setError(err.message||'Unable to connect to the server.');}finally{setLoading(false);}}
