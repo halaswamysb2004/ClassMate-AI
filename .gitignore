@@ -1,0 +1,87 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+# Backup folders
+backups/
+frontend-backup*/
+frontend-before-real-redesign/
+
+# ZIP archives
+*.zip
+
+# Windows metadata
+*:Zone.Identifier
+# Backup files
+*.backup
+*.bak
+*.before-*
+*.full-backup
+*~ 
+
+# Windows metadata
+*:Zone.Identifier
+
+# Python cache
+__pycache__/
+*.py[cod]
+# Exclude duplicate root-level Vite application
+/index.html
+/package.json
+/package-lock.json
+/public/
+/src/
+/vite.config.js
+
+# Exclude old integration copy
+/ClassMate-CBSE-MongoDB-Integration/
+
+# Exclude backup files
+**/*backup*
+**/*before-*
+**/*bachup*
+**/*.bak*
+**/*.save
+
+# Exclude Windows metadata
+*:Zone.Identifier
+# Additional backup exclusions
+**/*.before_*
+**/*.backup*
+**/*.bak*

@@ -1,0 +1,345 @@
+/* ==========================================
+   CLASSMATE AI - COMPACT CLASSROOM LAYOUT
+   Designed for comfortable viewing at 100% zoom
+========================================== */
+
+#root {
+  min-height: 100%;
+}
+
+/* Main classroom */
+.classroom-redesign {
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+  box-sizing: border-box;
+  padding: 8px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  overflow: hidden;
+}
+
+/* Header */
+.classroom-redesign .classroom-header {
+  width: 100%;
+  min-height: 48px;
+  flex-shrink: 0;
+  padding: 5px 12px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.classroom-redesign .brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.classroom-redesign .brand > span {
+  font-size: 25px;
+}
+
+.classroom-redesign .brand h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.classroom-redesign .brand small {
+  font-size: 10px;
+  color: #8b7ba5;
+}
+
+/* Child information */
+.classroom-redesign .classroom-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.classroom-redesign .classroom-child strong {
+  font-size: 13px;
+}
+
+.classroom-redesign .classroom-child small {
+  font-size: 10px;
+}
+
+/* Main teacher container */
+.classroom-redesign .auto-teacher {
+  width: 100%;
+  max-width: 1200px;
+  flex: 1 1 0;
+  min-height: 0;
+  margin: 0 auto;
+  padding: 7px;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: 62px minmax(0, 1fr) 7px auto auto auto;
+  gap: 6px;
+
+  overflow: hidden;
+}
+
+/* Compact horizontal teacher banner */
+.classroom-redesign .auto-teacher-heading {
+  grid-column: 1;
+  grid-row: 1;
+
+  min-height: 0;
+  height: 62px;
+  padding: 6px 13px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+
+  text-align: left;
+  border-radius: 13px;
+  background: linear-gradient(145deg, #eee5ff, #ffeaf2);
+  overflow: hidden;
+}
+
+/* Teacher avatar */
+.classroom-redesign .auto-avatar {
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  margin: 0;
+  font-size: 31px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* Teacher heading */
+.classroom-redesign .auto-teacher-heading h2 {
+  font-size: 17px;
+  line-height: 1.2;
+  margin: 0 0 3px;
+}
+
+.classroom-redesign .auto-teacher-heading p {
+  font-size: 11px;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.classroom-redesign .auto-teacher-heading small {
+  font-size: 10px;
+}
+
+/* Lesson area */
+.classroom-redesign .auto-lesson,
+.classroom-redesign .auto-start {
+  grid-column: 1;
+  grid-row: 2;
+
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 10px 18px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  border-radius: 14px;
+  background: linear-gradient(135deg, #fffaf0, #f7f3ff);
+  overflow-y: auto;
+}
+
+/* Stage number */
+.classroom-redesign .auto-lesson > p:first-child {
+  font-size: 11px;
+  margin: 0;
+}
+
+/* Lesson title */
+.classroom-redesign .auto-lesson h2 {
+  font-size: clamp(17px, 1.7vw, 21px);
+  line-height: 1.25;
+  margin: 2px 0;
+}
+
+/* Visual content */
+.classroom-redesign .auto-visual {
+  width: 100%;
+  min-height: 55px;
+  max-height: 95px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 7px 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  background: white;
+  overflow-y: auto;
+}
+
+.classroom-redesign .auto-visual-description {
+  font-size: clamp(15px, 1.5vw, 19px);
+  line-height: 1.3;
+}
+
+/* Lesson description and attempts */
+.classroom-redesign .auto-lesson > p:not(:first-child) {
+  font-size: 12px;
+  line-height: 1.3;
+  margin: 2px 0;
+  text-align: center;
+}
+
+/* Questions */
+.classroom-redesign .auto-lesson h3 {
+  font-size: clamp(14px, 1.4vw, 17px);
+  line-height: 1.3;
+  margin: 3px 0;
+  text-align: center;
+}
+
+/* Writing practice */
+.classroom-redesign .writing-stage {
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.classroom-redesign .writing-character {
+  font-size: 35px;
+}
+
+.classroom-redesign .writing-canvas {
+  width: 100%;
+  max-height: 110px;
+}
+
+/* Progress bar */
+.classroom-redesign .auto-progress {
+  grid-column: 1;
+  grid-row: 3;
+  width: 100%;
+  height: 7px;
+  margin: 0;
+}
+
+/* Completed stages */
+.classroom-redesign .auto-teacher > p {
+  grid-column: 1;
+  grid-row: 4;
+  font-size: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Classroom controls */
+.classroom-redesign .auto-status {
+  grid-column: 1;
+  grid-row: 5;
+  margin: 0;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-radius: 12px;
+  background: #f2edff;
+}
+
+.classroom-redesign .auto-status button,
+.classroom-redesign .auto-start button {
+  padding: 6px 12px;
+  font-size: 11px;
+}
+
+/* Conversation */
+.classroom-redesign .auto-conversation {
+  grid-column: 1;
+  grid-row: 6;
+  max-height: 42px;
+  overflow-y: auto;
+  font-size: 10px;
+  margin: 0;
+}
+
+/* Footer */
+.classroom-redesign .classroom-footer {
+  flex-shrink: 0;
+  padding: 2px;
+  font-size: 10px;
+  text-align: center;
+}
+
+/* Short laptop screens */
+@media (max-height: 750px) {
+  .classroom-redesign {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 5px;
+  }
+
+  .classroom-redesign .classroom-header {
+    min-height: 42px;
+  }
+
+  .classroom-redesign .auto-teacher {
+    grid-template-rows: 55px minmax(0, 1fr) 6px auto auto auto;
+    gap: 5px;
+  }
+
+  .classroom-redesign .auto-teacher-heading {
+    height: 55px;
+  }
+
+  .classroom-redesign .auto-avatar {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    font-size: 27px;
+  }
+
+  .classroom-redesign .auto-lesson,
+  .classroom-redesign .auto-start {
+    padding: 7px 12px;
+    gap: 4px;
+  }
+
+  .classroom-redesign .auto-visual {
+    min-height: 45px;
+    max-height: 75px;
+  }
+}
+
+/* Mobile and narrow screens */
+@media (max-width: 700px) {
+  .classroom-redesign {
+    height: auto;
+    min-height: 100vh;
+    overflow: auto;
+    padding: 8px;
+  }
+
+  .classroom-redesign .auto-teacher {
+    flex: none;
+    min-height: 650px;
+    overflow: visible;
+  }
+
+  .classroom-redesign .auto-lesson,
+  .classroom-redesign .auto-start {
+    min-height: 350px;
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "metadata": {
+    "title": "ClassMate AI Foundational Stage Curriculum Starter",
+    "framework": "Aligned in approach with NCERT National Curriculum Framework for Foundational Stage (NCF-FS), 2022",
+    "important_note": "This is an illustrative, age-banded learning progression for ClassMate AI, not an official CBSE-prescribed Nursery/LKG/UKG chapter list. Schools may sequence and name topics differently. Learning outcomes are developmental and children progress at different rates.",
+    "pedagogy": [
+      "play-based learning",
+      "conversation and storytelling",
+      "songs and movement",
+      "hands-on exploration",
+      "observation-based progress tracking"
+    ],
+    "assessment_policy": "For Nursery, LKG and UKG, use encouraging observation and short practice activities rather than formal examinations."
+  },
+  "classes": {
+    "nursery": {
+      "label": "Nursery",
+      "suggested_age": "3–4 years",
+      "domains": [
+        {
+          "id": "language",
+          "label": "Language and Communication",
+          "subjects": [
+            {
+              "id": "english",
+              "label": "English",
+              "units": [
+                {
+                  "id": "eng-listen-speak",
+                  "title": "Listening and Speaking",
+                  "topics": [
+                    "Listen and respond to familiar words",
+                    "Name familiar people and objects",
+                    "Use simple greetings",
+                    "Describe a picture using one or two words"
+                  ],
+                  "outcomes": [
+                    "Responds to simple spoken instructions",
+                    "Names familiar objects",
+                    "Attempts short conversations"
+                  ],
+                  "activities": [
+                    "Picture talk",
+                    "Name-that-object game",
+                    "Greeting role-play"
+                  ]
+                },
+                {
+                  "id": "eng-sounds",
+                  "title": "Sounds and Early Literacy",
+                  "topics": [
+                    "Environmental sounds",
+                    "Rhymes and rhythm",
+                    "Recognise own name",
+                    "Explore picture books"
+                  ],
+                  "outcomes": [
+                    "Notices and imitates familiar sounds",
+                    "Joins in repeated rhymes",
+                    "Shows interest in books"
+                  ],
+                  "activities": [
+                    "Sound detective",
+                    "Rhyme-and-clap",
+                    "Shared picture-book reading"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hindi",
+              "label": "Hindi / Home Language",
+              "units": [
+                {
+                  "id": "hin-oral",
+                  "title": "मौखिक भाषा",
+                  "topics": [
+                    "परिचित शब्द सुनना और बोलना",
+                    "अभिवादन",
+                    "चित्र देखकर नाम बताना",
+                    "छोटी कविताएँ और गीत"
+                  ],
+                  "outcomes": [
+                    "सरल निर्देश समझता/समझती है",
+                    "परिचित वस्तुओं के नाम बताता/बताती है"
+                  ],
+                  "activities": [
+                    "चित्र वार्ता",
+                    "कविता के साथ तालियाँ",
+                    "वस्तु पहचान खेल"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "math",
+          "label": "Early Mathematical Thinking",
+          "subjects": [
+            {
+              "id": "mathematics",
+              "label": "Mathematics",
+              "units": [
+                {
+                  "id": "math-early",
+                  "title": "Number, Shape and Pattern Exploration",
+                  "topics": [
+                    "Sort objects by colour, shape or size",
+                    "Compare big and small",
+                    "Count small groups through objects (1–3)",
+                    "Recognise circle and square",
+                    "Explore simple repeating patterns"
+                  ],
+                  "outcomes": [
+                    "Sorts objects by one visible attribute",
+                    "Uses words such as big/small",
+                    "Begins counting objects with support",
+                    "Recognises familiar shapes"
+                  ],
+                  "activities": [
+                    "Sort the toys",
+                    "Find a circle around us",
+                    "Clap-and-tap pattern",
+                    "Count three blocks"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world",
+          "label": "Understanding the World",
+          "subjects": [
+            {
+              "id": "evs",
+              "label": "My World",
+              "units": [
+                {
+                  "id": "world-me",
+                  "title": "Me, My Family and My Surroundings",
+                  "topics": [
+                    "Myself and body parts",
+                    "Family and friends",
+                    "Common foods",
+                    "Animals around us",
+                    "Plants and nature",
+                    "Cleanliness and safe habits"
+                  ],
+                  "outcomes": [
+                    "Names familiar people and body parts",
+                    "Recognises common animals and foods",
+                    "Practises simple hygiene routines with support"
+                  ],
+                  "activities": [
+                    "My family picture",
+                    "Healthy food basket",
+                    "Animal sound match",
+                    "Water-the-plant activity"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creative",
+          "label": "Creative, Physical and Social Development",
+          "subjects": [
+            {
+              "id": "art-play",
+              "label": "Art, Movement and Play",
+              "units": [
+                {
+                  "id": "creative-explore",
+                  "title": "Create and Move",
+                  "topics": [
+                    "Free drawing and scribbling",
+                    "Colour exploration",
+                    "Music and movement",
+                    "Sharing and turn-taking"
+                  ],
+                  "outcomes": [
+                    "Explores materials creatively",
+                    "Participates in movement and group play",
+                    "Begins to take turns"
+                  ],
+                  "activities": [
+                    "Finger painting",
+                    "Action song",
+                    "Build together"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "lkg": {
+      "label": "LKG",
+      "suggested_age": "4–5 years",
+      "domains": [
+        {
+          "id": "language",
+          "label": "Language and Communication",
+          "subjects": [
+            {
+              "id": "english",
+              "label": "English",
+              "units": [
+                {
+                  "id": "eng-oral",
+                  "title": "Listening, Speaking and Vocabulary",
+                  "topics": [
+                    "Talk about self and daily routines",
+                    "Name common objects and actions",
+                    "Answer who/what/where questions",
+                    "Retell a short event with prompts"
+                  ],
+                  "outcomes": [
+                    "Speaks in short meaningful sentences",
+                    "Follows two-step familiar instructions",
+                    "Uses new words in context"
+                  ],
+                  "activities": [
+                    "Show-and-tell",
+                    "Picture sequencing",
+                    "What am I? clues"
+                  ]
+                },
+                {
+                  "id": "eng-literacy",
+                  "title": "Letters, Sounds and Emergent Reading",
+                  "topics": [
+                    "Recognise selected uppercase letters",
+                    "Connect familiar letter sounds to words",
+                    "Identify beginning sounds in simple words",
+                    "Recognise own name and familiar labels",
+                    "Enjoy shared reading"
+                  ],
+                  "outcomes": [
+                    "Recognises some letters in meaningful contexts",
+                    "Notices beginning sounds",
+                    "Uses pictures to talk about a story"
+                  ],
+                  "activities": [
+                    "Letter hunt",
+                    "Sound basket (A for apple)",
+                    "Read-aloud prediction"
+                  ]
+                },
+                {
+                  "id": "eng-mark",
+                  "title": "Pre-writing and Fine Motor Skills",
+                  "topics": [
+                    "Lines, curves and simple shapes",
+                    "Trace selected letter-like patterns",
+                    "Draw to communicate an idea"
+                  ],
+                  "outcomes": [
+                    "Controls crayon or pencil with growing confidence",
+                    "Copies simple lines and shapes"
+                  ],
+                  "activities": [
+                    "Sky writing",
+                    "Sand-tray tracing",
+                    "Draw and tell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hindi",
+              "label": "Hindi / Home Language",
+              "units": [
+                {
+                  "id": "hin-oral",
+                  "title": "मौखिक भाषा और शब्द भंडार",
+                  "topics": [
+                    "बातचीत और वर्णन",
+                    "कहानियाँ और कविताएँ",
+                    "दैनिक जीवन के शब्द"
+                  ],
+                  "outcomes": [
+                    "छोटे वाक्यों में अपनी बात कहता/कहती है",
+                    "कहानी के सरल प्रश्नों का उत्तर देता/देती है"
+                  ],
+                  "activities": [
+                    "चित्र देखकर बोलो",
+                    "कहानी आगे बढ़ाओ",
+                    "कविता अभिनय"
+                  ]
+                },
+                {
+                  "id": "hin-literacy",
+                  "title": "ध्वनि और अक्षर से परिचय",
+                  "topics": [
+                    "स्वरों से परिचय (खेल और चित्रों के माध्यम से)",
+                    "अपने नाम के अक्षर पहचानना",
+                    "चित्र और शब्द का मिलान"
+                  ],
+                  "outcomes": [
+                    "कुछ परिचित अक्षरों को पहचानता/पहचानती है",
+                    "ध्वनियों में रुचि दिखाता/दिखाती है"
+                  ],
+                  "activities": [
+                    "अक्षर खोज",
+                    "चित्र-अक्षर मिलान"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "math",
+          "label": "Early Mathematical Thinking",
+          "subjects": [
+            {
+              "id": "mathematics",
+              "label": "Mathematics",
+              "units": [
+                {
+                  "id": "math-number",
+                  "title": "Numbers and Counting",
+                  "topics": [
+                    "Count objects meaningfully (1–10)",
+                    "Recognise numerals in familiar contexts (1–5, extending as ready)",
+                    "Match number to quantity",
+                    "Compare more and fewer"
+                  ],
+                  "outcomes": [
+                    "Counts a small set using one-to-one correspondence",
+                    "Matches some numerals to quantities",
+                    "Compares groups using more/fewer"
+                  ],
+                  "activities": [
+                    "Count the steps",
+                    "Feed the teddy the right number",
+                    "Make two groups and compare"
+                  ]
+                },
+                {
+                  "id": "math-shape",
+                  "title": "Shapes, Space and Patterns",
+                  "topics": [
+                    "Circle, square, triangle and rectangle",
+                    "In/on/under/near",
+                    "Long/short and heavy/light through objects",
+                    "Copy simple AB patterns"
+                  ],
+                  "outcomes": [
+                    "Names familiar shapes",
+                    "Uses simple position words",
+                    "Copies a repeating pattern"
+                  ],
+                  "activities": [
+                    "Shape walk",
+                    "Toy hiding game",
+                    "Pattern necklace"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world",
+          "label": "Understanding the World",
+          "subjects": [
+            {
+              "id": "evs",
+              "label": "My World",
+              "units": [
+                {
+                  "id": "world-community",
+                  "title": "People, Places, Nature and Care",
+                  "topics": [
+                    "My body and senses",
+                    "Family, school and community helpers",
+                    "Plants and parts of a plant",
+                    "Domestic and wild animals",
+                    "Weather and seasons",
+                    "Healthy food, hygiene and safety"
+                  ],
+                  "outcomes": [
+                    "Describes familiar people and places",
+                    "Observes simple features of plants and animals",
+                    "Identifies healthy habits and basic safety rules"
+                  ],
+                  "activities": [
+                    "Five-senses station",
+                    "Helper role-play",
+                    "Plant observation diary",
+                    "Weather window"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creative",
+          "label": "Creative, Physical and Social Development",
+          "subjects": [
+            {
+              "id": "art-play",
+              "label": "Art, Movement and Life Skills",
+              "units": [
+                {
+                  "id": "creative-create",
+                  "title": "Create, Move and Collaborate",
+                  "topics": [
+                    "Drawing, painting, tearing and pasting",
+                    "Songs, dance and action games",
+                    "Taking turns and expressing feelings",
+                    "Simple classroom responsibilities"
+                  ],
+                  "outcomes": [
+                    "Uses art to express ideas",
+                    "Joins group movement",
+                    "Practises sharing and naming feelings"
+                  ],
+                  "activities": [
+                    "Make a paper garden",
+                    "Feelings faces",
+                    "Team building blocks"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ukg": {
+      "label": "UKG",
+      "suggested_age": "5–6 years",
+      "domains": [
+        {
+          "id": "language",
+          "label": "Language and Communication",
+          "subjects": [
+            {
+              "id": "english",
+              "label": "English",
+              "units": [
+                {
+                  "id": "eng-literacy",
+                  "title": "Phonological Awareness, Letters and Early Reading",
+                  "topics": [
+                    "Recognise uppercase and lowercase letters",
+                    "Associate common sounds with letters",
+                    "Blend and segment simple spoken sounds with support",
+                    "Read familiar words and simple patterned sentences",
+                    "Understand a short read-aloud"
+                  ],
+                  "outcomes": [
+                    "Recognises many letters and common sounds",
+                    "Attempts to decode simple familiar words",
+                    "Answers simple questions about a story"
+                  ],
+                  "activities": [
+                    "Sound blending robot",
+                    "Word-picture match",
+                    "Story sequence cards"
+                  ]
+                },
+                {
+                  "id": "eng-writing",
+                  "title": "Early Writing and Expression",
+                  "topics": [
+                    "Write or copy familiar letters and own name",
+                    "Form simple words with support",
+                    "Write/draw a caption for a picture",
+                    "Use spaces and directionality with guidance"
+                  ],
+                  "outcomes": [
+                    "Writes familiar letters with increasing control",
+                    "Communicates an idea through drawing, labels or emergent writing"
+                  ],
+                  "activities": [
+                    "Label the picture",
+                    "Build a word with letter cards",
+                    "My mini-book"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hindi",
+              "label": "Hindi / Home Language",
+              "units": [
+                {
+                  "id": "hin-language",
+                  "title": "भाषा, ध्वनि और प्रारंभिक पठन",
+                  "topics": [
+                    "स्वर और चुने हुए व्यंजनों की पहचान",
+                    "ध्वनि और अक्षर का संबंध",
+                    "परिचित शब्द और चित्र मिलाना",
+                    "कविता और छोटी कहानी समझना"
+                  ],
+                  "outcomes": [
+                    "परिचित अक्षरों और शब्दों को पहचानता/पहचानती है",
+                    "सुनी हुई कहानी पर सरल उत्तर देता/देती है"
+                  ],
+                  "activities": [
+                    "अक्षर कार्ड खेल",
+                    "शब्द-चित्र मिलान",
+                    "कहानी क्रम"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "math",
+          "label": "Early Mathematical Thinking",
+          "subjects": [
+            {
+              "id": "mathematics",
+              "label": "Mathematics",
+              "units": [
+                {
+                  "id": "math-number",
+                  "title": "Number Sense and Operations Through Objects",
+                  "topics": [
+                    "Count and represent quantities (within 20, adjusting to readiness)",
+                    "Recognise and order numerals",
+                    "Compare quantities and numbers",
+                    "Explore joining and separating groups (early addition and subtraction)",
+                    "Make and interpret simple picture-based data"
+                  ],
+                  "outcomes": [
+                    "Counts objects with one-to-one correspondence",
+                    "Compares and orders familiar quantities",
+                    "Solves simple joining/separating problems using objects"
+                  ],
+                  "activities": [
+                    "Number line hop",
+                    "Story sums with counters",
+                    "Class fruit graph"
+                  ]
+                },
+                {
+                  "id": "math-measure",
+                  "title": "Shapes, Patterns and Measurement",
+                  "topics": [
+                    "2D shapes in the environment",
+                    "Create and extend patterns",
+                    "Compare length, weight and capacity informally",
+                    "Use positional and sequence words"
+                  ],
+                  "outcomes": [
+                    "Sorts and describes familiar shapes",
+                    "Extends simple patterns",
+                    "Compares measurable attributes using everyday language"
+                  ],
+                  "activities": [
+                    "Shape detective",
+                    "Pattern train",
+                    "Which container holds more?"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world",
+          "label": "Understanding the World",
+          "subjects": [
+            {
+              "id": "evs",
+              "label": "My World",
+              "units": [
+                {
+                  "id": "world-observe",
+                  "title": "Living Things, Community and Environment",
+                  "topics": [
+                    "Plants, animals and their needs",
+                    "Food, water, shelter and clothing",
+                    "Family, school and community roles",
+                    "Transport and communication around us",
+                    "Day/night, weather and seasonal changes",
+                    "Care for water, plants and surroundings"
+                  ],
+                  "outcomes": [
+                    "Groups living and non-living things using observable features",
+                    "Explains simple needs of plants, animals and people",
+                    "Suggests simple ways to care for surroundings"
+                  ],
+                  "activities": [
+                    "What does a seed need?",
+                    "Sort living/non-living picture cards",
+                    "Community map",
+                    "Save-water role-play"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creative",
+          "label": "Creative, Physical and Social Development",
+          "subjects": [
+            {
+              "id": "art-play",
+              "label": "Art, Movement and Life Skills",
+              "units": [
+                {
+                  "id": "creative-express",
+                  "title": "Creative Expression and Well-being",
+                  "topics": [
+                    "Art using varied materials",
+                    "Music, rhythm and movement",
+                    "Cooperative games",
+                    "Recognising feelings and calming strategies",
+                    "Personal hygiene and safe choices"
+                  ],
+                  "outcomes": [
+                    "Expresses ideas through art and movement",
+                    "Participates cooperatively",
+                    "Identifies basic feelings and healthy routines"
+                  ],
+                  "activities": [
+                    "Make a weather collage",
+                    "Rhythm pattern game",
+                    "Calm-breathing with a paper pinwheel"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
